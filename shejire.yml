@@ -1,0 +1,875 @@
+families:
+  - parents: [Шағыр]
+    children: [Жайын]
+  - parents: [Жайын]
+    children: [Алтан]
+  - parents: [Алтан]
+    children: [Жансары]
+  - parents: [Жансары]
+    children: [Құдас]
+  - parents: [Құдас]
+    children: [Жаман, Сәкі, Бүріт, Тоқтаған]
+
+  # Жаман атаның ұрпағы [done]
+  - parents: [Жаман]
+    children: [Әбде]
+
+    families:
+      - parents: [Әбде, 1-ші әйелі]
+        children: [Ысқақбай, Ысқақан, Сағадай]
+
+        families:
+          - parents: [Ысқақбай]
+            children: [Қайша, Нұрғайша, Ақан, Нұрила]
+
+            families:
+              - parents: [Ақан, Бижамал Қаптоллақызы]
+                children: [Азат, Гүлден]
+
+              - parents: [Азат, Ләззат]
+                children: [Қуанышқан, Бекзат, Жеңісгүл, Нұргүл']
+
+              - parents: [Бекзат, Гүнай]
+                children: [Айбол, Аякөз]
+
+      - parents: [Әбде, 2-ші әйелі]
+        children: [Гүләй, Гүлшай, Қыдырма, Қырғызбай, Байқали]
+
+        families:
+          - parents: [Қыдырма, Қадиша]
+            children: [Қызырбек, Айнұр]
+
+            families:
+              - parents: [Қызырбек, Нұрғиса]
+                children: [Жұмабек, Тұрсынгүл, Мұқаметбек]
+
+                families: 
+                  - parents: [Жұмабек, Алмагүл]
+                    children: [Нұрғалым, Нұрерке]
+
+                  - parents: [Мұқаметбек, Айгүл]
+                    children: []
+
+          - parents: [Қырғызбай, Нұрайша]
+            children: [Қанышай, Бақытхан, Күләшхан, Сейітбек, Нұрланбек, Серікбек, Кәдірбек, Жеңісбек]
+
+            families:
+              - parents: [Жеңісбек, Нұргүл'']
+                children: [Ақжол, Ақнар]
+
+                families:
+                  - parents: [Ақжол, Сағынай]
+                    children: [Айым]
+
+
+
+  # Сәкі атаның ұрпағы
+  - parents: [Сәкі]
+    children: [Әбішбай, Малдыбай, Баймұқан]
+
+    families:
+      - parents: [Әбішбай]
+        children: [Қалқажан, Шаймұрат, Шайахмет, Байахмет]
+
+        families:
+          - parents: [Қалқажан, Қайшан Бекболсынқызы]
+            children: [Қалиқасан, Фәрида]
+
+            families:
+              - parents: [Қалиқасан, Нүкен Ескендірқызы]
+                children: [Риза, Серік, Әден]
+
+                families: 
+                  - parents: [Серік, Жаңылқан Байахметқызы]
+                    children: [Айжан]
+
+          - parents: [Шаймұрат, Мәлике Жуанханқызы]
+            children: [Қалиақпар, Қалиқазы, Қалиқайдар, Шүленғали, Дәриға, Бәдиға, Жәния]
+
+            families:
+              - parents: [Қалиақпар, Қанша Науанқызы]
+                children: [Меллат, Азат', Жеңіс, Бақыт, Болат, Мұқиат, Жанар]
+
+                families:
+                  - parents: [Меллат, Нұрбақыт Нәкенқызы]
+                    children: [Ернар, Ақерке]
+
+                  - parents: [Азат', Гүлия Исабайқызы]
+                    children: [Балғын, Бұлғын]
+
+                  - parents: [Жеңіс, Алтын Құсманқызы]
+                    children: []
+
+                  - parents: [Бақыт, Сайра Сұмағұлқызы]
+                    children: [Балдан, Бағжан]
+
+                  - parents: [Болат, Сәуле Сұмағұлқызы]
+                    children: [Елдос]
+
+                  - parents: [Мұқиат, Жібек Оразқызы]
+                    children: [Жандос]
+
+              - parents: [Қалиқазы, Гүлжәмі Қалиақсарқызы]
+                children: [Тұрсынхан, Мұратхан, Нұрзат, Нұрбәти, Изат, Үмітхан, Гүлсінхан]
+
+                families:
+                  - parents: [Тұрсынхан, Арман Мәуенқызы]
+                    children: [Жансая, Жансері]
+
+                  - parents: [Мұратхан, Зейнелхан Ырысбекызы]
+                    children: [Айдана, Айдос]
+
+              - parents: [Қалиқайдар, Азат Қызырханқызы]
+                children: [Дәулетхан, Нұрила', Нұрланхан, Алтынгүл, Нұргүл]
+
+                families:
+                  - parents: [Дәулетхан, Бахытхан Қыдырқызы]
+                    children: [Ертай, Нартай]
+
+                  - parents: [Нұрланхан, Жазира]
+                    children: [Илина, Елиза]
+
+              - parents: [Шүленғали, Дәметкен Айтмұқайқызы]
+                children: [Анаргүл, Разыгүл]
+
+          - parents: [Шайахмет, Жәмилә Сүлейқанқызы]
+            children: [Рамазан, Қали, Ғалым, Қалымхан, Қалиман, Әліман, Бәтима, Сәлима, Қанипа, Әнипа]
+
+            families:
+              - parents: [Қали, Айша Зүкетайқызы]
+                children: [Ғылымхан, Есбол, Әсипа, Әсигүл, Айтжұлдыз, Бәтигүл, Разыгүл']
+
+                families:
+                 - parents: [Ғылымхан, Бақыт Жамалқызы]
+                   children: [Самғар, Санжар, Елнар]
+
+                   families: 
+                    
+                    - parents: [Самғар, Мадина Ермекқызы]
+                      children: []
+
+                 - parents: [Есбол, Айгерім Шаханқызы]
+                   children: [Ералы]
+
+              - parents: [Ғалым, Күләй Қалымханқызы]
+                children: [Қасен, Гүлнұр]
+
+              - parents: [Қалымхан, Қанаша Еренбаққызы]
+                children: [Ақжол', Таңсәуле]
+
+                families:
+                  - parents: [Ақжол', Қалима]
+                    children: [Табыс]
+
+          - parents: [Байахмет, Тұқыс Бекболсынқызы]
+            children: [Әділбек]
+
+            families:
+              - parents: [Әділбек, Оразхан Рақымжанқызы]
+                children: [Бақытбек, Бейсенбек, Бақытнұр, Орал, Алтын]
+
+                families:
+                  - parents: [Бақытбек, Сайраш]
+                    children: [Лина, Қарақат]
+
+      - parents: [Малдыбай, Күнпейіс]
+        children: [Байсүлеймен, Әкебай, Баймұқамет]
+
+        families:
+          - parents: [Байсүлеймен, Баян]
+            children: [Қызырбек', Нұрбати, Гүлбати, Жаңылған, Нұрбағи]
+
+            families:
+              - parents: [Қызырбек', Бақытхан']
+                children: [Серікбол, Берікбол, Еркінбол, Ырысалды, Үміталды, Дариға, Мәрия, Мәуәрия]
+
+                families:
+                  - parents: [Серікбол]
+                    children: [Аятолла, Сарқыт]
+
+                  - parents: [Берікбол, Салауат]
+                    children: [Мұратолла, Зүлғиза, Кәуәрия]
+                  
+                  - parents: [Еркінбол, Нұрлаш]
+                    children: [Пайзолла, Айдолда, Қамария]
+
+          - parents: [Әкебай, Ырымхан]
+            children: [Қажыкен]
+
+            families:
+              - parents: [Қажыкен, Ашигүл]
+                children: [Сауатжан, Әділжан, Арзыгүл, Айжан']
+
+                families:
+                  - parents: [Сауатжан, Нұржайна]
+                    children: [Сыламжан, Мерия]
+
+          - parents: [Баймұқамет, Жібек]
+            children: [Мақсүтхан, Оразхан, Әнихан]
+
+            families:
+              - parents: [Мақсүтхан, Ажай]
+                children: [Қыжынәби, Нәбихан, Садыхан, Зәкиман, Нәзіхан, Нұриман]
+
+                families:
+                  - parents: [Қыжынәби, Гүлнұр']
+                    children: [Қасымбек, Нұрмизан]
+
+                  - parents: [Нәбихан, Нұршат]
+                    children: [Нұрғиза]
+
+                  - parents: [Садыхан, Айнұр']
+                    children: [Ғалымбек, Гүлмира, Гүлдина]
+
+                  - parents: [Зәкиман, Гүлсана]
+                    children: [Бақберді, Гүлзира, Ұлпара]
+
+
+
+  # Бүріт атаның ұрпағы
+  - parents: [Бүріт]
+    children: [Әбеке, Әбіті, Әбді]
+
+    families:
+      - parents: [Әбеке]
+        children: [Садыхан', Сымақ, Ысқақ, Төлеген, Мақаш, Ырысхан, Ырымхан', Елеухан]
+
+        families: 
+          - parents: [Садыхан', Рабиға Әрміқызы]
+            children: [Кәдірхан, Қыдырхан, Мұқаметбай, Ахыметбай, Зәйымхан]
+
+            families:
+              - parents: [Мұқаметбай, Бижамал Марданқызы]
+                children: [Айымхан, Мұрат, Ирада, Ардақ, Тілек, Шұғла, Самура]
+
+                families:
+                  - parents: [Мұрат, Гүлғайсара Кәмелханқызы]
+                    children: [Айдынгүл, Шалқар, Риза']
+
+                  - parents: [Тілек, Мағрипа Айтанқызы]
+                    children: [Ақберен, Ақсұңқар]
+
+
+          - parents: [Мақаш, Нұрбала Мұқай, Гімиңгүл Әбікенқызы]
+            children: [Гүлмира', Жәзира, Есхат, Қалима', Ақтілек]
+
+      - parents: [Әбді, Ырымжан]
+        children: [Рахаділ, Мақым, Нұрахмет, Қожа, Қожатай, Нұрғайша']
+
+        families:
+          - parents: [Рахаділ, Ғалия Жылыспайқызы]
+            children: [Ешмұхаммед, Жармұхаммед, Құрман, Қали', Оразбек, Гүлғайша]
+
+            families:
+              - parents: [Ешмұхаммед, Кәмелхан Ахметқызы]
+                children: [Молдабай, Тілеухан, Нұрланхан', Пәтіха, Нұрлан, Нұрхан]
+
+                families:
+                  - parents: [Молдабай, Нұршай Қаламханқызы]
+                    children: [Ерен]
+
+                  - parents: [Тілеухан, Үзімхан Рахымжанқызы]
+                    children: [Айсымбат]
+
+                  - parents: [Нұрлан, Майнұр Тоқтарбекқызы]
+                    children: [Ерлан]
+
+              - parents: [Жармұхаммед, Гүланда Қанапия]
+                children: [Мұқият, Ынтымақ, Шәрихан, Әзи, Ардақ', Пәрзан]
+
+                families:
+                  - parents: [Мұқият, Гімиңгүл Заданқызы]
+                    children: [Айжан'', Таңсәуле', Арман]
+
+              - parents: [Құрман, Қадиша Аусай]
+                children: [Тілеубек, Әтіпа, Гүлден', Қайрат]
+
+                families:
+                  - parents: [Тілеубек, Айнұр Айыпханқызы]
+                    children: [Салтанат]
+
+              - parents: [Қали', Қадиша Байкерейқызы]
+                children: [Әнипа', Үзімгүл, Нағызбек, Серік']
+
+                families:
+                  - parents: [Нағызбек, Бақытбала Рүстемқызы]
+                    children: [Әденбек]
+
+              - parents: [Оразбек, Әзі Әбілмажанқызы]
+                children: [Алтынбек, Алтынгүл']
+
+          - parents: [Мақым, Шәкей Шәйкенқызы]
+            children: [Молдахмет, Адал, Гүлбағи, Бағила, Сақпан, Дәукен]
+
+            families:
+              - parents: [Молдахмет, Нүржікен Заданқызы]
+                children: [Бердімұрат, Бақдәулет, Кәлиман, Кәтиман]
+
+                families:
+                  - parents: [Бердімұрат, Бекзат Дүйсенқызы]
+                    children: [Досбол, Таңжарық, Табыс']
+
+                  - parents: [Бақдәулет, Мақпал Баймашқызы]
+                    children: [Таңсамал, Фатима]
+
+              - parents: [Адал, Бейісхан Сағатбекқызы]
+                children: [Нұрболат, Әлмира]
+
+          - parents: [Нұрахмет]
+            children: [Бейсен, Сейсен, Сәрсен, Мұхтар, Қайрат', Гімиң, Мейран, Күлән, Гүлбаран, Гүлзира', Гүлзипа]
+
+            families:
+              - parents: [Бейсен, Сәмия Рамазанқызы]
+                children: [Жәнібек, Жанарбек, Арқарбек, Анар]
+
+                families:
+                  - parents: [Жәнібек, Аман Жақияқызы]
+                    children: [Дәурен]
+
+              - parents: [Сейсен, Күкаш Ботақара]
+                children: [Серік'', Гүлсін]
+
+              - parents: [Сәрсен, Қамия Рамазанқызы]
+                children: [Сәулет, Роза]
+
+              - parents: [Қайрат', Нұргүл Еренғазықызы]
+                children: [Айнаш, Айдан]
+
+              - parents: [Гімиң, Өкен Жанымханқызы]
+                children: [Ақерке']
+
+              - parents: [Мейран, Мәрия Қали]
+                children: []
+
+          - parents: [Қожа, Пакза Қаһарманқызы]
+            children: [Мейрақ, Әсет, Бақыт']
+
+            families:
+              - parents: [Мейрақ, Дәкеш Мұқаметжанқызы]
+                children: [Ербол, Анар']
+
+                families:
+                  - parents: [Ербол, Үнзила Әсемханқызы]
+                    children: [Нұрасыл, Раян]
+
+              - parents: [Әсет, Бәти Шайсұлтанқызы]
+                children: [Жандарбек, Парасат, Шапағат]
+
+
+
+  # Тоқтаған атаның ұрпағы
+  - parents: [Тоқтаған]
+    children: [Әбей]
+
+    families:
+      - parents: [Әбей]
+        children: [Жапай, Мұхаметқазы, Бекбай]
+
+        families:
+          - parents: [Жапай, Қақаш Баймоллақызы]
+            children: [Құнапия, Бәтима']
+
+            families:
+              - parents: [Құнапия, Ғалия Төлеуқызы]
+                children: [Бейілхан, Пәтиха, Қанипа', Сарагүл, Зорагүл, Мейрамхан]
+
+                families: 
+                  - parents: [Бейілхан, Жайна Аралханқызы]
+                    children: [Самғат]
+
+          - parents: [Мұхаметқазы, Нұржәміш Мұсақызы]
+            children: [Мұратбек, Мейірхан, Мерейхан, Төлеухан, Айгүл']
+
+            families:
+              - parents: [Мұратбек, Фарида Данайқызы]
+                children: []
+              
+              - parents: [Мейірхан, Әсигүл Көксегенқызы]
+                children: [Гүлнұр'']
+
+              - parents: [Мерейхан, Жанар']
+                children: [Өрлен]
+
+              - parents: [Төлеухан, Гүлнар]
+                children: [Мөлдір, Сұңқар]
+
+
+
+people:
+  Гүлнар:
+    class: [wife]
+    gender: m
+
+  Жанар':
+    class: [wife]
+    gender: m
+
+  Әсигүл Көксегенқызы:
+    fullname: "Жүзі: Ботақара"
+    class: [wife]
+    gender: m
+
+  Фарида Данайқызы:
+    fullname: "Жүзі: Қаракерей"
+    class: [wife]
+    gender: m
+
+  Нұржәміш Мұсақызы:
+    fullname: "Жүзі: Ботақара"
+    class: [wife]
+    gender: m
+
+  Жайна Аралханқызы:
+    fullname: "Жүзі: Шеруші"
+    class: [wife]
+    gender: m
+
+  Ғалия Төлеуқызы:
+    fullname: "Жүзі: Найман"
+    class: [wife]
+    gender: m
+
+  Қақаш Баймоллақызы:
+    fullname: "Жүзі: Мұрын"
+    class: [wife]
+    gender: m
+
+  Үнзила Әсемханқызы:
+    fullname: "Жүзі: Жастабан"
+    class: [wife]
+    gender: m
+
+  Бәти Шайсұлтанқызы:
+    fullname: "Жүзі: Есдәулет"
+    class: [wife]
+    gender: m
+
+  Дәкеш Мұқаметжанқызы:
+    fullname: "Жүзі: Найман"
+    class: [wife]
+    gender: m
+
+  Аман Жақияқызы:
+    fullname: "Жүзі: Шұбарайғыр"
+    class: [wife]
+    gender: m
+
+  Мәрия Қали:
+    fullname: "Жүзі: Тәттібай"
+    class: [wife]
+    gender: m
+
+  Өкен Жанымханқызы:
+    class: [wife]
+    gender: m
+
+  Нұргүл Еренғазықызы:
+    fullname: "Жүзі: Уақ"
+    class: [wife]
+    gender: m
+
+  Қамия Рамазанқызы:
+    fullname: "Жүзі: Елгелді"
+    class: [wife]
+    gender: m
+
+  Күкаш Ботақара:
+    class: [wife]
+    gender: m
+
+  Сәмия Рамазанқызы:
+    fullname: "Жүзі: Елгелді"
+    class: [wife]
+    gender: m
+
+  Мақпал Баймашқызы:
+    fullname: "Жүзі: Жалайыр"
+    class: [wife]
+    gender: m
+
+  Бекзат Дүйсенқызы:
+    fullname: "Жүзі: Найман"
+    class: [wife]
+    gender: m
+
+  Бейісхан Сағатбекқызы:  
+    fullname: "Жүзі: Уақ"
+    class: [wife]
+    gender: m
+
+  Нүржікен Заданқызы:
+    fullname: "Жүзі: Шимойын"
+    class: [wife]
+    gender: m
+
+  Бақытбала Рүстемқызы:
+    fullname: "Жүзі: Уақ"
+    class: [wife]
+    gender: m
+
+  Айнұр Айыпханқызы:
+    fullname: "Жүзі: Жайлау"
+    class: [wife]
+    gender: m
+
+  Гімиңгүл Заданқызы:
+    fullname: "Жүзі: Қаратай"
+    class: [wife]
+    gender: m
+
+  Әзі Әбілмажанқызы:
+    fullname: "Жүзі: Шұбарайғыр"
+    class: [wife]
+    gender: m
+
+  Қадиша Байкерейқызы:
+    fullname: "Жүзі: Шотай"
+    class: [wife]
+    gender: m
+
+  Қадиша Аусай:
+    fullname: "Жүзі: Уақ"
+    class: [wife]
+    gender: m
+
+  Гүланда Қанапия:
+    fullname: "Жүзі: Уақ"
+    class: [wife]
+    gender: m 
+
+  Майнұр Тоқтарбекқызы:
+    fullname: "Жүзі: Жәнтекей"
+    class: [wife]
+    gender: m 
+
+  Үзімхан Рахымжанқызы:
+    fullname: "Жүзі: Жәнтекей"
+    class: [wife]
+    gender: m 
+
+  Нұршай Қаламханқызы:
+    fullname: "Жүзі: Сарбас"
+    class: [wife]
+    gender: m 
+
+  Кәмелхан Ахметқызы:
+    fullname: "Жүзі: Шұбарайғыр"
+    class: [wife]
+    gender: m 
+
+  Пакза Қаһарманқызы:
+    class: [wife]
+    gender: m 
+
+  Шәкей Шәйкенқызы:
+    fullname: "Жүзі: Есдәулет"
+    class: [wife]
+    gender: m 
+
+  Ғалия Жылыспайқызы:
+    fullname: "Жүзі: Уақ"
+    class: [wife]
+    gender: m 
+
+  Мағрипа Айтанқызы:
+    fullname: "Жүзі: Қаракерей"
+    class: [wife]
+    gender: m 
+
+  Гүлғайсара Кәмелханқызы:
+    fullname: "Жүзі: Жастабан"
+    class: [wife]
+    gender: m 
+
+  Бижамал Марданқызы:
+    fullname: "Жүзі: Есдәулет"
+    class: [wife]
+    gender: m
+
+  Нұрбала Мұқай:
+    fullname: "Жүзі: Бура"
+    class: [wife]
+    gender: m
+
+  Гімиңгүл Әбікенқызы:
+    fullname: "Жүзі: Бура"
+    class: [wife]
+    gender: m
+
+  Рабиға Әрміқызы:
+    fullname: "Жүзі: Есдәулет"
+    class: [wife]
+    gender: m
+
+  Ырымжан:
+    fullname: "Жүзі: Көнсадақ"
+    class: [wife]
+    gender: m
+
+  Гүлнұр':
+    fullname: "Жүзі: Уақ"
+    class: [wife]
+    gender: m
+
+  Нұршат:
+    fullname: "Жүзі: Қарақас"
+    class: [wife]
+    gender: m
+
+  Айнұр':
+    fullname: "Жүзі: Уақ"
+    class: [wife]
+    gender: m
+
+  Гүлсана:
+    fullname: "Жүзі: Қарақас"
+    class: [wife]
+    gender: m
+
+  Ажай:
+    fullname: "Жүзі: Уақ"
+    class: [wife]
+    gender: m
+
+  Нұржайна:
+    fullname: "Жүзі: Уақ"
+    class: [wife]
+    gender: m
+
+  Ашигүл:
+    class: [wife]
+    gender: m
+
+  Нұрлаш:
+    fullname: "Жүзі: Уақ"
+    class: [wife]
+    gender: m
+
+  Салауат:
+    fullname: "Жүзі: Уақ"
+    class: [wife]
+    gender: m
+
+  Бақытхан':
+    fullname: "Жүзі: Шотай"
+    class: [wife]
+    gender: m
+
+  Жібек:
+    class: [wife]
+    gender: m
+
+  Ырымхан:
+    fullname: "Жүзі: Уақ"
+    class: [wife]
+    gender: m
+
+  Баян:
+    fullname: "Жүзі: Уақ"
+    class: [wife]
+    gender: m
+
+  Күнпейіс:
+    fullname: "Жүзі: Уақ"
+    class: [wife]
+    gender: m
+
+
+  Сайраш:
+    class: [wife]
+    gender: m
+
+  Оразхан Рақымжанқызы:
+    fullname: "Жүзі: Шұбарайғыр"
+    class: [wife]
+    gender: m
+
+  Тұқыс Бекболсынқызы:
+    fullname: "Жүзі: Барқы"
+    class: [wife]
+    gender: m
+
+  Қалима:
+    class: [wife]
+    gender: m
+
+  Мадина Ермекқызы:
+    fullname: "Жүзі: Арғын"
+    class: [wife]
+    gender: m
+
+  Бақыт Жамалқызы:
+    fullname: "Жүзі: Арғын"
+    class: [wife]
+    gender: m
+
+  Айгерім Шаханқызы:
+    fullname: "Жүзі: Қоңырат"
+    class: [wife]
+    gender: m
+
+  Қанаша Еренбаққызы:
+    fullname: "Жүзі: Шотай"
+    class: [wife]
+    gender: m
+
+  Күләй Қалымханқызы:
+    fullname: "Жүзі: Сарбас"
+    class: [wife]
+    gender: m
+
+  Айша Зүкетайқызы:
+    fullname: "Жүзі: Көнсадақ"
+    class: [wife]
+    gender: m
+
+  Жәмилә Сүлейқанқызы:
+    fullname: "Жүзі: Түкібай"
+    class: [wife]
+    gender: m
+
+  Дәметкен Айтмұқайқызы:
+    fullname: "Жүзі: Тәттібай"
+    class: [wife]
+    gender: m
+
+  Бахытхан Қыдырқызы:
+    fullname: "Жүзі: Тәттібай"
+    class: [wife]
+    gender: m
+
+  Жазира:
+    class: [wife]
+    gender: m
+
+  Азат Қызырханқызы:
+    fullname: "Жүзі: Найман"
+    class: [wife]
+    gender: m
+
+  Қадиша:
+    fullname: "Жүзі: Сибаң"
+    class: [wife]
+    gender: m
+
+  Нұрайша:
+    fullname: "Жүзі: Ақсары"
+    class: [wife]
+    gender: m
+
+  Бижамал Қаптоллақызы:
+    fullname: "Жүзі: Қарақас"
+    class: [wife]
+    gender: m
+
+  Ләззат:
+    class: [wife]
+    gender: m
+
+  Гүнай:
+    fullname: "Жүзі: Найман"
+    class: [wife]
+    gender: m
+
+  Нұрғиса:
+    fullname: "Жүзі: Жастабан"
+    class: [wife]
+    gender: m
+
+  Алмагүл:
+    fullname: "Жүзі: Уақ"
+    class: [wife]
+    gender: m
+
+  Айгүл:
+    class: [wife]
+    gender: m
+
+  Нұргүл'':
+    fullname: "Жүзі: Дөртуыл"
+    class: [wife]
+    gender: m
+
+  Сағынай:
+    fullname: "Жүзі: Жарболды"
+    class: [wife]
+    gender: m
+
+  Қайшан Бекболсынқызы:
+    class: [wife]
+    gender: m
+
+  Нүкен Ескендірқызы:
+    fullname: "Жүзі: Елкелді"
+    class: [wife]
+    gender: m
+
+  Жаңылқан Байахметқызы:
+    fullname: "Жүзі: Тәттібай"
+    class: [wife]
+    gender: m
+
+  Мәлике Жуанханқызы:
+    fullname: "Жүзі: Тәттібай"
+    class: [wife]
+    gender: m
+
+  Қанша Науанқызы:
+    fullname: "Жүзі: Елгелді"
+    class: [wife]
+    gender: m
+
+  Нұрбақыт Нәкенқызы:
+    fullname: "Жүзі: Елгелді"
+    class: [wife]
+    gender: m
+
+  Гүлия Исабайқызы:
+    fullname: "Жүзі: Қарақас"
+    class: [wife]
+    gender: m
+
+  Алтын Құсманқызы:
+    fullname: "Жүзі: Қарақас"
+    class: [wife]
+    gender: m
+
+  Сайра Сұмағұлқызы:
+    fullname: "Жүзі: Найман"
+    class: [wife]
+    gender: m
+
+  Сәуле Сұмағұлқызы:
+    fullname: "Жүзі: Найман"
+    class: [wife]
+    gender: m
+
+  Жібек Оразқызы:
+    fullname: "Жүзі: Жайлау"
+    class: [wife]
+    gender: m
+
+  Гүлжәмі Қалиақсарқызы:
+    fullname: "Жүзі: Шұбарайғыр"
+    class: [wife]
+    gender: m
+
+  Арман Мәуенқызы:
+    fullname: "Жүзі: Қазыбек"
+    class: [wife]
+    gender: m
+
+  Зейнелхан Ырысбекызы:
+    fullname: "Жүзі: Сибаң"
+    class: [wife]
+    gender: m
+
+
+
+
+
+styles:
+  wife:
+    fillcolor: "#F6D2FA"
+    display: none
+
