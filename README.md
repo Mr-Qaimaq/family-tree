@@ -9,7 +9,7 @@ Followed [these](https://github.com/rstacruz/kingraph/issues/6) steps to resolve
 
 I fixed this by changing the totalMemory variable in viz.js
 
-Location of the viz.js
+_Location of the viz.js_
 
 **Windows** C:\Users\{Username}\AppData\Roaming\npm\node_modules\kingraph\node_modules\viz.js
 
